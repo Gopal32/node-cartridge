@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <module identifier="chapter1">
+    <title>Introduction</title>
+    <workflow_state>active</workflow_state>
+    <position>0</position>
+    <unlock_at/>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="lesson1">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lesson 1</title>
+        <identifierref>a2166f11-517b-415f-96f7-1a73e87616f7</identifierref>
+        <position>0</position>
+        <new_tab/>
+        <indent>0</indent>
+      </item>
+    </items>
+  </module>
+</modules>

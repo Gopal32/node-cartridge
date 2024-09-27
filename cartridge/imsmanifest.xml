@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="com.example.course" xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imscp_v1p2_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lomresource_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lommanifest_v1p0.xsd">
+  <metadata>
+    <schema>IMS Common Cartridge</schema>
+    <schemaversion>1.1.0</schemaversion>
+    <title>Sample Course</title>
+    <author>John Doe</author>
+    <language>en</language>
+    <description/>
+    <version>1.0</version>
+  </metadata>
+  <organizations>
+    <organization identifier="org_1" structure="rooted-hierarchy"/>
+    <item identifier="LearningModules">
+      <item identifier="chapter1">
+        <title>Introduction</title>
+        <item identifier="lesson1" identifierref="a2166f11-517b-415f-96f7-1a73e87616f7">
+          <title>Lesson 1</title>
+        </item>
+      </item>
+    </item>
+  </organizations>
+  <resources>
+    <resource identifier="8754f163-d683-4ec3-92f5-b1b61eda4713" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/canvas_export.txt"/>
+    <resource type="webcontent" href="wiki_content/front-page.html">
+      <file href="wiki_content/front-page.html"/>
+    </resource>
+    <resource identifier="a2166f11-517b-415f-96f7-1a73e87616f7" type="webcontent" href="wiki_content/Lesson-1-00.html">
+      <file href="wiki_content/Lesson-1-00.html"/>
+    </resource>
+  </resources>
+</manifest>

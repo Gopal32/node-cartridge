@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course identifier="8754f163-d683-4ec3-92f5-b1b61eda4713" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>Sample Course</title>
+  <default_wiki_editing_roles>teachers</default_wiki_editing_roles>
+  <allow_student_organized_groups>false</allow_student_organized_groups>
+  <default_view>wiki</default_view>
+  <open_enrollment>false</open_enrollment>
+  <self_enrollment>false</self_enrollment>
+</course>
