@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopal32/node-cartridge.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Gopal",
   "license": "ISC",
   "dependencies": {
     "html-to-text": "^9.0.5",
